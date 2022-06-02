@@ -1,0 +1,12 @@
+name: "test-pvc"
+volumeName: "test-pv"
+storageType: "local"
+
+# storageClass name of the storage class
+storageClassName: "manual"
+# capacity of the storage e.g. 10Gi
+capacity: "10Gi"
+# Access mode, read and write from many pods, needs to match the volume spec
+accessMode: "ReadWriteMany"
+
+hostPath: "/opt/data"
