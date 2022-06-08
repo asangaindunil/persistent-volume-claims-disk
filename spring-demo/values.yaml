@@ -6,7 +6,7 @@ dns: "abc.com"
 replicaCount: 1
 
 image:
-  repository: gcr.io/ahasaqa/cloud-portal-scraper:1.0.1
+  repository: gcr.io/ahasaqa/cloud-portal-scraper:1.0.2
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.0.1"
@@ -17,6 +17,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 env:
+  - name: "FILE_PATH"
+    value: "/opt/app/"
   - name: DATASOURCE_HOST
     value: "mysql-database-mysql-db"
   - name: DATASOURCE_PORT
@@ -27,8 +29,6 @@ env:
     value: "root"
   - name: "DATASOURCE_PASSWORD"
     value: "root" 
-  - name: "FILE_PATH"
-    value: "/opt/app/" 
 
 persistentVolumeClaim:
   claimName: "pc-claim"

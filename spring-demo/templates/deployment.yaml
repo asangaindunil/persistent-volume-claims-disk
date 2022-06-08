@@ -58,7 +58,7 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
           volumeMounts:
           - name: persistent-storage
-            mountPath: {{ lookup('.Values.env','FILE_PATH')|default('/opt/app/') }}
+            mountPath: {{ (index .Values.env 0).value }}
       volumes:
       - name: persistent-storage
         persistentVolumeClaim:
