@@ -12,3 +12,5 @@ spec:
     - {{ .Values.accessMode | quote }}
   hostPath:
     path: {{ .Values.hostPath | quote }}
+    type: DirectoryOrCreate
+

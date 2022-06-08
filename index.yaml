@@ -2,11 +2,22 @@ apiVersion: v1
 entries:
   persistent-volume:
   - apiVersion: v1
-    created: "2022-06-02T14:16:54.221007+05:30"
+    created: "2022-06-08T09:20:38.6392013+05:30"
     description: A chart containing the persistent volumes
     digest: 18272d8bf8d95dba3b58ee78b55f4cb6ca56fefd191186fbe745cea26306c98a
     name: persistent-volume
     urls:
     - persistent-volume-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-02T14:16:54.2199893+05:30"
+  spring-sample-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-08T09:20:38.6392013+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 871f02d7b26c52451dd26fa593f637f40ab65de3565c9f95379fe0c2891ed0ac
+    name: spring-sample-app
+    type: application
+    urls:
+    - spring-sample-app-2.0.0.tgz
+    version: 2.0.0
+generated: "2022-06-08T09:20:38.6312089+05:30"
