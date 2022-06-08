@@ -19,5 +19,5 @@ entries:
     type: application
     urls:
     - spring-sample-app-2.0.0.tgz
-    version: 2.0.0
+    version: 2.0.1
 generated: "2022-06-08T14:29:45.3078868+05:30"
