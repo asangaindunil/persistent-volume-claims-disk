@@ -1,3 +1,3 @@
 name: local-pvc
 capacity: 10Gi
-accessMode: ReadWriteMany
+accessMode: ReadWriteOnce

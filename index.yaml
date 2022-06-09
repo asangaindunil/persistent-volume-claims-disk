@@ -2,7 +2,15 @@ apiVersion: v1
 entries:
   persistent-volume:
   - apiVersion: v1
-    created: "2022-06-09T15:10:27.3549396+05:30"
+    created: "2022-06-09T16:56:24.7627269+05:30"
+    description: A chart containing the persistent volumes
+    digest: e2fd368d4a848218011f29ae89acd8f7977c460ac154a4d8c431eb16676e5310
+    name: persistent-volume
+    urls:
+    - persistent-volume-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v1
+    created: "2022-06-09T16:56:24.7617314+05:30"
     description: A chart containing the persistent volumes
     digest: 6c579b4a104df5de8b9dd0718cc46d8a88bafb2bd67d5557d1d3d082c6c36c95
     name: persistent-volume
@@ -10,7 +18,7 @@ entries:
     - persistent-volume-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v1
-    created: "2022-06-09T15:10:27.3549396+05:30"
+    created: "2022-06-09T16:56:24.7617314+05:30"
     description: A chart containing the persistent volumes
     digest: a64239c996335fd3469ca52e2828c010d3a85f511650541940fc7ca4222b8f1e
     name: persistent-volume
@@ -18,7 +26,7 @@ entries:
     - persistent-volume-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
-    created: "2022-06-09T15:10:27.3537494+05:30"
+    created: "2022-06-09T16:56:24.7617314+05:30"
     description: A chart containing the persistent volumes
     digest: 18272d8bf8d95dba3b58ee78b55f4cb6ca56fefd191186fbe745cea26306c98a
     name: persistent-volume
@@ -28,7 +36,17 @@ entries:
   spring-sample-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-09T15:10:27.3590892+05:30"
+    created: "2022-06-09T16:56:24.7657263+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 634c00b78da6dc90246da248334a8ad84d66b84b2bcfa5e94148f48ea8f21fd6
+    name: spring-sample-app
+    type: application
+    urls:
+    - spring-sample-app-2.0.6.tgz
+    version: 2.0.6
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-09T16:56:24.7647266+05:30"
     description: A Helm chart for Kubernetes
     digest: da63f3b98681e128a76935507dc4d903cc8ac2932a8e5c7396ff42326b80c86e
     name: spring-sample-app
@@ -38,7 +56,7 @@ entries:
     version: 2.0.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-09T15:10:27.3585039+05:30"
+    created: "2022-06-09T16:56:24.7647266+05:30"
     description: A Helm chart for Kubernetes
     digest: cba5b5a27ac7bbf4ae66a788a0dec218d87f669cc58ee19e2b55cc5be82b7c68
     name: spring-sample-app
@@ -48,7 +66,7 @@ entries:
     version: 2.0.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-09T15:10:27.3579145+05:30"
+    created: "2022-06-09T16:56:24.7637268+05:30"
     description: A Helm chart for Kubernetes
     digest: c73f75b9c62585cb1cc7cbef22c38f7342030bfff0daf33181486a33a7fb532b
     name: spring-sample-app
@@ -58,7 +76,7 @@ entries:
     version: 2.0.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-09T15:10:27.3573273+05:30"
+    created: "2022-06-09T16:56:24.7627269+05:30"
     description: A Helm chart for Kubernetes
     digest: 549642b25b74599a822e206dd97d03375ab99f41687bbb1188ce86c838127f7c
     name: spring-sample-app
@@ -66,4 +84,4 @@ entries:
     urls:
     - spring-sample-app-2.0.0.tgz
     version: 2.0.0
-generated: "2022-06-09T15:10:27.3513137+05:30"
+generated: "2022-06-09T16:56:24.7607265+05:30"
