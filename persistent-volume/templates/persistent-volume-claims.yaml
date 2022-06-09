@@ -1,17 +1,10 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: {{ .Values.name | quote }}
+  name: {{ .Values.name }}
 spec:
   accessModes:
-    - {{ .Values.accessMode | quote }}
-  volumeMode: Filesystem
+    - {{ .Values.accessMode}}
   resources:
     requests:
-      storage: {{ .Values.capacity | quote }}
-  storageClassName: {{ .Values.storageClassName | quote }}
-  selector:
-    matchLabels:
-      release: "stable"
-    matchExpressions:
-      - {key: environment, operator: In, values: [dev]}
+      storage: {{ .Values.capacity}}

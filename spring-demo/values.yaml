@@ -31,7 +31,7 @@ env:
     value: "root" 
 
 persistentVolumeClaim:
-  claimName: "pc-claim"
+  claimName: local-pvc
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
