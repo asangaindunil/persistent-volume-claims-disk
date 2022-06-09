@@ -1,4 +1,4 @@
-name: "test-pvc"
+name: "pc-claim"
 volumeName: "test-pv"
 storageType: "local"
 
@@ -9,4 +9,4 @@ capacity: "10Gi"
 # Access mode, read and write from many pods, needs to match the volume spec
 accessMode: "ReadWriteMany"
 
-hostPath: "/opt/data"
+hostPath: "/var/spring"
